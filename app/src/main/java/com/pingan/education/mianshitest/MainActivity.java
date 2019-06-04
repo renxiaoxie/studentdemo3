@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ImageView imageView=null;
+        //dasfda
         Glide.with(this).load("").into(imageView);
         Handler handler = new Handler(
 
