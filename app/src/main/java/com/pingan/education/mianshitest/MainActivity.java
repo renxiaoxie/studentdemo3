@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         OkHttpClient okHttpClient =new OkHttpClient.Builder().cache(new Cache(new File("cache"),24*1024*1024)).build();
         OkHttpClient client = new OkHttpClient();
         Request request =new Request.Builder().
-                url("").
+                url("www.baidu.com").
                 build();
         Call call = client.newCall(request);
         //同步
