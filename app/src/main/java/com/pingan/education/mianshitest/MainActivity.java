@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ImageView imageView=null;
-        Glide.with(this).load("").into(imageView);
+        Glide.with(this).load("asdf").into(imageView);
         Handler handler = new Handler(
 
         );
