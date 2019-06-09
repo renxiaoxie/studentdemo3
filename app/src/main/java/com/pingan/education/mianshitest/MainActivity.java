@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         );
 
         //okhttp 源码分析
+        //测试一下冲突
         OkHttpClient okHttpClient =new OkHttpClient.Builder().cache(new Cache(new File("cache"),24*1024*1024)).build();
         OkHttpClient client = new OkHttpClient();
         Request request =new Request.Builder().
