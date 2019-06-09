@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         );
         //哈哈
+        //哈哈2
         //okhttp 源码分析
         OkHttpClient okHttpClient =new OkHttpClient.Builder().cache(new Cache(new File("cache"),24*1024*1024)).build();
         OkHttpClient client = new OkHttpClient();
