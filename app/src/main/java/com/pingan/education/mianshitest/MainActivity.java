@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
         //ddddd
         Glide.with(this).load("www.baidu.com").into(imageView);
         Handler handler = new Handler(
-
         );
         //哈哈
         //哈哈2
