@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView imageView=null;
         //dasfda
         //ddddd
-        Glide.with(this).load("").into(imageView);
+        Glide.with(this).load("www.baidu.com").into(imageView);
         Handler handler = new Handler(
 
         );
